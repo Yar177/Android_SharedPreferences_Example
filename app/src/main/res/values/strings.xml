@@ -10,6 +10,9 @@
     <!-- Value in SharedPreferences for red color option -->
     <string name="pref_color_red_value" translatable="false">red</string>
 
+
+    <string name="action_settings" translatable="false"> Settings </string>
+
     <!-- Value in SharedPreferences for blue color option -->
     <string name="pref_color_blue_value" translatable="false">blue</string>
 
