@@ -25,6 +25,8 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.widget.Toast;
 
 public class VisualizerActivity extends AppCompatActivity {
@@ -40,6 +42,15 @@ public class VisualizerActivity extends AppCompatActivity {
         mVisualizerView = (VisualizerView) findViewById(R.id.activity_visualizer);
         defaultSetup();
         setupPermissions();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.visualizer_menu, menu);
+        return true;
+
+
     }
 
     private void defaultSetup() {
