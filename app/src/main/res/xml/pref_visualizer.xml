@@ -24,6 +24,13 @@
         android:title="@string/pref_show_treble_label"
         />
 
+    <EditTextPreference
+        android:defaultValue="1"
+        android:key="size"
+        android:title="Size Multiplier"
+
+        />
+
 
 
 </PreferenceScreen>
